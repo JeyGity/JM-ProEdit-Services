@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM ProEdit Services - Professional Writing & Virtual Assistance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .bg-pattern {
+            background-image: 
+                radial-gradient(circle at 25% 25%, rgba(16, 185, 129, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(34, 197, 94, 0.05) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-100 bg-pattern text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-xl fixed w-full top-0 z-50 border-b-4 border-emerald-500">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gradient-to-r from-green-600 via-blue-600 to-emerald-600 rounded-full flex items-center justify-center mr-3">
+                        <span class="text-lg font-bold text-white">JM</span>
+                    </div>
+                    <span class="text-xl font-semibold text-gray-800">JM ProEdit Services</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-emerald-600 font-medium hover:text-green-600 transition-colors">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-green-600 transition-colors">Services</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-green-600 transition-colors">Portfolio</a>
+                    <a href="#contact" class="text-gray-600 hover:text-emerald-600 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-gradient-to-br from-gray-900 via-green-800 to-blue-900 text-white min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="fade-in">
+                <div class="w-32 h-32 mx-auto bg-gradient-to-r from-yellow-400 via-emerald-500 to-blue-500 rounded-full flex items-center justify-center mb-8 shadow-2xl border-4 border-white">
+                    <span class="text-4xl font-bold text-white">JM</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-yellow-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent">
+                    JM ProEdit Services
+                </h1>
+                <p class="text-xl md:text-2xl font-light mb-12 text-gray-200 max-w-3xl mx-auto">
+                    Your Partner in Writing, Technology, and Virtual Assistance
+                </p>
+                <a href="#contact" class="inline-block bg-gradient-to-r from-emerald-600 via-blue-600 to-green-600 hover:from-emerald-700 hover:via-blue-700 hover:to-green-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
+                    Let's Work Together
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="py-20 bg-white bg-pattern">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-12 bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent">Welcome</h2>
+                <div class="bg-gradient-to-r from-emerald-100 via-blue-100 to-green-100 rounded-2xl p-8 md:p-12 border-l-8 border-emerald-500 shadow-xl">
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-700 mb-8">
+                        We are excited to learn how we can help you and your business thrive. With extensive experience working with clients from various industries, we provide tailored services.
+                    </p>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-700 mb-8">
+                        What sets your product, service, or company apart from the competition? Let's highlight these standout qualities to capture your audience's attention.
+                    </p>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-700">
+                        By understanding your goals, we will create a tailored strategy that drives productivity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50 bg-pattern">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-12">About</h2>
+                <div class="bg-gradient-to-r from-emerald-100 via-blue-100 to-green-100 rounded-2xl p-8 md:p-12 border-l-8 border-gradient-to-b border-emerald-500 shadow-xl">
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-700 mb-8">
+                        At JM ProEdit Services, we help individuals, businesses, and organizations save time, work smarter, and achieve their goals. 
+                        With years of experience in writing, technology support, and administrative assistance, we bring accuracy, creativity, and professionalism to every project.
+                    </p>
+                    <p class="text-lg md:text-xl leading-relaxed text-gray-700">
+                        Whether it's creating compelling designs, managing tasks behind the scenes, or providing expert virtual support, our focus is on delivering results you can trust.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50 bg-pattern">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Our Services</h2>
+                <p class="text-xl text-gray-600">Professional solutions tailored to your needs</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 fade-in border-t-4 border-emerald-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-2xl">✍️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Writing Services</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Professional content creation, editing, and proofreading for all your business and personal writing needs.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 fade-in border-t-4 border-blue-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-green-600 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-2xl">💻</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Technology Support</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Expert assistance with digital tools, software setup, and technology solutions to streamline your workflow.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 fade-in border-t-4 border-green-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-yellow-500 rounded-full flex items-center justify-center mb-6">
+                        <span class="text-2xl">🎯</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Virtual Assistance</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Comprehensive administrative support, project management, and organizational services to boost your productivity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white bg-pattern">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Portfolio</h2>
+                <p class="text-xl text-gray-600">Examples of our work and client success stories</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-emerald-200 to-green-300 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 fade-in border-4 border-white shadow-lg">
+                    <div class="w-full h-48 bg-gradient-to-r from-emerald-400 to-green-500 rounded-xl mb-4 flex items-center justify-center">
+                        <span class="text-4xl">📝</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Content Writing Project</h3>
+                    <p class="text-gray-700">Professional blog posts and marketing content for tech startup</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-200 to-green-300 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 fade-in border-4 border-white shadow-lg">
+                    <div class="w-full h-48 bg-gradient-to-r from-blue-400 to-green-500 rounded-xl mb-4 flex items-center justify-center">
+                        <span class="text-4xl">🔧</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Tech Setup & Training</h3>
+                    <p class="text-gray-700">Complete digital workflow setup for small business team</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-yellow-200 to-emerald-300 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 fade-in border-4 border-white shadow-lg">
+                    <div class="w-full h-48 bg-gradient-to-r from-yellow-400 to-emerald-500 rounded-xl mb-4 flex items-center justify-center">
+                        <span class="text-4xl">📊</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Virtual Assistant Services</h3>
+                    <p class="text-gray-700">Ongoing administrative support and project coordination</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-800 via-green-800 to-blue-800 text-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center fade-in">
+                <h2 class="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-yellow-400 to-emerald-400 bg-clip-text text-transparent">Let's Work Together</h2>
+                <p class="text-xl mb-12 text-gray-200">
+                    Ready to take your project to the next level? Get in touch today!
+                </p>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 border-4 border-emerald-500/30">
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">📧</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Email</h3>
+                            <a href="mailto:jecyworkpro@gmail.com" class="text-yellow-400 hover:text-emerald-400 transition-colors">
+                                jecyworkpro@gmail.com
+                            </a>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <span class="text-2xl">💬</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Let's Chat</h3>
+                            <p class="text-gray-200">Available for consultations</p>
+                        </div>
+                    </div>
+                    
+                    <a href="mailto:jecyworkpro@gmail.com" class="inline-block bg-gradient-to-r from-yellow-500 via-emerald-500 to-blue-500 hover:from-yellow-600 hover:via-emerald-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105">
+                        Start Your Project Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 border-t-4 border-emerald-500">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="flex items-center justify-center mb-4">
+                <div class="w-10 h-10 bg-gradient-to-r from-emerald-500 via-blue-500 to-green-500 rounded-full flex items-center justify-center mr-3">
+                    <span class="text-lg font-bold text-white">JM</span>
+                </div>
+                <span class="text-xl font-semibold">JM ProEdit Services</span>
+            </div>
+            <p class="text-gray-400">© 2024 JM ProEdit Services. Professional Writing, Technology & Virtual Assistance.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling and fade-in animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c258c4321af0a8',t:'MTc1NDY5MTA1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
