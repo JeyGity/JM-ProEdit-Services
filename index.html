@@ -27,7 +27,13 @@
     <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
         <div class="max-w-6xl mx-auto px-4 py-4">
             <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold text-emerald-600">JM ProEdit</div>
+                <div class="flex items-center">
+                    <!-- IMPUTLOGOHERE -->
+                    <div class="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center mr-3">
+                        <span class="text-emerald-600 font-bold">LOGO</span>
+                    </div>
+                    <div class="text-2xl font-bold text-emerald-600">JM ProEdit</div>
+                </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#home" class="text-gray-700 hover:text-emerald-600 transition-colors">Home</a>
                     <a href="#about" class="text-gray-700 hover:text-emerald-600 transition-colors">About</a>
@@ -41,21 +47,74 @@
 
     <!-- Hero Section -->
     <section id="home" class="min-h-screen bg-gradient-to-br from-emerald-50 via-blue-50 to-green-100 bg-pattern flex items-center pt-20">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <div class="fade-in">
-                <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gray-800">
-                    Professional <span class="text-emerald-600">Virtual Assistant</span> Services
-                </h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
-                    Streamline your business operations with expert content writing, tech setup, and administrative support
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#services" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-colors">
-                        Explore Services
-                    </a>
-                    <a href="#contact" class="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white px-8 py-4 rounded-full text-lg font-medium transition-colors">
-                        Get Started
-                    </a>
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6 text-gray-800">
+                        Professional <span class="text-emerald-600">Virtual Assistant</span> Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-8">
+                        Streamline your business operations with expert content writing, tech setup, and administrative support
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#services" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-colors text-center">
+                            Explore Services
+                        </a>
+                        <a href="#contact" class="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white px-8 py-4 rounded-full text-lg font-medium transition-colors text-center">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <!-- Professional workspace illustration -->
+                    <svg viewBox="0 0 400 300" class="w-full h-auto">
+                        <!-- Desk -->
+                        <rect x="50" y="200" width="300" height="80" fill="#8B4513" rx="8"/>
+                        <rect x="50" y="190" width="300" height="20" fill="#A0522D" rx="8"/>
+                        
+                        <!-- Laptop -->
+                        <rect x="120" y="160" width="80" height="50" fill="#2D3748" rx="4"/>
+                        <rect x="125" y="165" width="70" height="40" fill="#4A90E2" rx="2"/>
+                        <circle cx="160" cy="185" r="2" fill="#68D391"/>
+                        
+                        <!-- Coffee cup -->
+                        <ellipse cx="250" cy="180" rx="15" ry="8" fill="#8B4513"/>
+                        <ellipse cx="250" cy="175" rx="12" ry="6" fill="#D2691E"/>
+                        <path d="M265 175 Q275 175 275 185 Q275 195 265 195" fill="none" stroke="#8B4513" stroke-width="2"/>
+                        
+                        <!-- Plant -->
+                        <rect x="320" y="170" width="20" height="25" fill="#8B4513"/>
+                        <ellipse cx="330" cy="165" rx="15" ry="10" fill="#68D391"/>
+                        <ellipse cx="325" cy="160" rx="8" ry="6" fill="#48BB78"/>
+                        <ellipse cx="335" cy="160" rx="8" ry="6" fill="#48BB78"/>
+                        
+                        <!-- Books -->
+                        <rect x="80" y="175" width="25" height="20" fill="#E53E3E"/>
+                        <rect x="85" y="170" width="25" height="20" fill="#3182CE"/>
+                        <rect x="90" y="165" width="25" height="20" fill="#38A169"/>
+                        
+                        <!-- Floating productivity icons -->
+                        <g opacity="0.7">
+                            <!-- Email icon -->
+                            <rect x="300" y="100" width="30" height="20" fill="#4299E1" rx="3"/>
+                            <path d="M305 105 L315 112 L325 105" fill="none" stroke="white" stroke-width="2"/>
+                            
+                            <!-- Calendar icon -->
+                            <rect x="250" y="80" width="25" height="25" fill="#48BB78" rx="3"/>
+                            <rect x="252" y="85" width="21" height="18" fill="white" rx="1"/>
+                            <line x1="255" y1="88" x2="270" y2="88" stroke="#48BB78" stroke-width="1"/>
+                            <line x1="255" y1="92" x2="265" y2="92" stroke="#48BB78" stroke-width="1"/>
+                            
+                            <!-- Chart icon -->
+                            <rect x="150" y="90" width="25" height="25" fill="#ED8936" rx="3"/>
+                            <path d="M155 110 L160 105 L165 108 L170 100" fill="none" stroke="white" stroke-width="2"/>
+                        </g>
+                        
+                        <!-- Decorative elements -->
+                        <circle cx="80" cy="50" r="3" fill="#E2E8F0" opacity="0.6"/>
+                        <circle cx="320" cy="40" r="2" fill="#E2E8F0" opacity="0.6"/>
+                        <circle cx="200" cy="30" r="4" fill="#E2E8F0" opacity="0.6"/>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -66,9 +125,47 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center mb-16 fade-in">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">About JM ProEdit Services</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
                     Empowering businesses with professional virtual assistance, content creation, and technology solutions
                 </p>
+                <!-- Professional team illustration -->
+                <div class="max-w-md mx-auto mb-12">
+                    <svg viewBox="0 0 300 200" class="w-full h-auto">
+                        <!-- Background circle -->
+                        <circle cx="150" cy="100" r="80" fill="#F0FDF4" stroke="#10B981" stroke-width="2" opacity="0.3"/>
+                        
+                        <!-- Professional figure -->
+                        <circle cx="150" cy="80" r="25" fill="#FED7AA"/>
+                        <rect x="135" y="105" width="30" height="40" fill="#1F2937" rx="15"/>
+                        <rect x="140" y="110" width="20" height="30" fill="#3B82F6" rx="10"/>
+                        
+                        <!-- Laptop -->
+                        <rect x="120" y="140" width="60" height="35" fill="#374151" rx="3"/>
+                        <rect x="125" y="145" width="50" height="25" fill="#60A5FA" rx="2"/>
+                        
+                        <!-- Floating elements around -->
+                        <g opacity="0.8">
+                            <!-- Document -->
+                            <rect x="80" y="60" width="20" height="25" fill="#EF4444" rx="2"/>
+                            <line x1="85" y1="68" x2="95" y2="68" stroke="white" stroke-width="1"/>
+                            <line x1="85" y1="72" x2="95" y2="72" stroke="white" stroke-width="1"/>
+                            
+                            <!-- Gear -->
+                            <circle cx="220" cy="70" r="12" fill="#8B5CF6"/>
+                            <circle cx="220" cy="70" r="6" fill="white"/>
+                            
+                            <!-- Success checkmark -->
+                            <circle cx="200" cy="130" r="12" fill="#10B981"/>
+                            <path d="M195 130 L198 133 L205 126" fill="none" stroke="white" stroke-width="2"/>
+                            
+                            <!-- Communication -->
+                            <ellipse cx="100" cy="130" rx="15" ry="10" fill="#F59E0B" rx="5"/>
+                            <circle cx="95" cy="127" r="2" fill="white"/>
+                            <circle cx="100" cy="127" r="2" fill="white"/>
+                            <circle cx="105" cy="127" r="2" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
             </div>
             
             <div class="grid md:grid-cols-3 gap-8">
@@ -100,8 +197,19 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50 bg-pattern">
-        <div class="max-w-6xl mx-auto px-4">
+    <section id="services" class="py-20 bg-gradient-to-br from-gray-50 to-blue-50 bg-pattern relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10">
+            <svg viewBox="0 0 1200 800" class="w-full h-full">
+                <circle cx="100" cy="100" r="50" fill="#10B981"/>
+                <circle cx="1100" cy="200" r="30" fill="#3B82F6"/>
+                <circle cx="200" cy="700" r="40" fill="#8B5CF6"/>
+                <circle cx="1000" cy="600" r="35" fill="#F59E0B"/>
+                <rect x="50" y="300" width="80" height="80" fill="#EF4444" rx="10" transform="rotate(45 90 340)"/>
+                <rect x="1050" y="400" width="60" height="60" fill="#10B981" rx="8" transform="rotate(30 1080 430)"/>
+            </svg>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 relative">
             <div class="text-center mb-16 fade-in">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">Our Services</h2>
                 <p class="text-xl text-gray-600">Comprehensive solutions for your business needs</p>
@@ -154,11 +262,36 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="py-20 bg-white bg-pattern">
+    <section id="portfolio" class="py-20 bg-white bg-pattern relative">
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center mb-16 fade-in">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">Our Work</h2>
-                <p class="text-xl text-gray-600">Recent projects and success stories</p>
+                <p class="text-xl text-gray-600 mb-8">Recent projects and success stories</p>
+                <!-- Success metrics illustration -->
+                <div class="max-w-lg mx-auto mb-8">
+                    <svg viewBox="0 0 400 150" class="w-full h-auto">
+                        <!-- Growth chart -->
+                        <rect x="50" y="120" width="300" height="2" fill="#E5E7EB"/>
+                        <rect x="50" y="50" width="2" height="70" fill="#E5E7EB"/>
+                        
+                        <!-- Chart bars -->
+                        <rect x="80" y="100" width="20" height="20" fill="#3B82F6" rx="2"/>
+                        <rect x="120" y="85" width="20" height="35" fill="#10B981" rx="2"/>
+                        <rect x="160" y="70" width="20" height="50" fill="#F59E0B" rx="2"/>
+                        <rect x="200" y="55" width="20" height="65" fill="#EF4444" rx="2"/>
+                        <rect x="240" y="40" width="20" height="80" fill="#8B5CF6" rx="2"/>
+                        <rect x="280" y="25" width="20" height="95" fill="#10B981" rx="2"/>
+                        
+                        <!-- Success indicators -->
+                        <circle cx="320" cy="30" r="15" fill="#10B981"/>
+                        <path d="M313 30 L318 35 L327 26" fill="none" stroke="white" stroke-width="2"/>
+                        
+                        <!-- Dollar signs -->
+                        <text x="340" y="35" fill="#059669" font-size="20" font-weight="bold">$</text>
+                        <text x="355" y="45" fill="#059669" font-size="16" font-weight="bold">$</text>
+                        <text x="365" y="25" fill="#059669" font-size="14" font-weight="bold">$</text>
+                    </svg>
+                </div>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -618,11 +751,47 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gradient-to-br from-gray-800 via-green-800 to-blue-800 text-white">
-        <div class="max-w-6xl mx-auto px-4">
+    <section id="contact" class="py-20 bg-gradient-to-br from-gray-800 via-green-800 to-blue-800 text-white relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10">
+            <svg viewBox="0 0 1200 600" class="w-full h-full">
+                <!-- Communication lines -->
+                <path d="M100 100 Q300 50 500 100 T900 100" fill="none" stroke="white" stroke-width="2"/>
+                <path d="M150 200 Q350 150 550 200 T950 200" fill="none" stroke="white" stroke-width="2"/>
+                <path d="M50 300 Q250 250 450 300 T850 300" fill="none" stroke="white" stroke-width="2"/>
+                
+                <!-- Connection nodes -->
+                <circle cx="200" cy="80" r="8" fill="white"/>
+                <circle cx="600" cy="120" r="6" fill="white"/>
+                <circle cx="800" cy="180" r="10" fill="white"/>
+                <circle cx="400" cy="280" r="7" fill="white"/>
+            </svg>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 relative">
             <div class="text-center mb-16 fade-in">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
-                <p class="text-xl text-gray-300">Ready to streamline your business operations?</p>
+                <p class="text-xl text-gray-300 mb-8">Ready to streamline your business operations?</p>
+                <!-- Contact illustration -->
+                <div class="max-w-sm mx-auto mb-8">
+                    <svg viewBox="0 0 200 150" class="w-full h-auto">
+                        <!-- Phone/Communication device -->
+                        <rect x="60" y="40" width="80" height="70" fill="white" rx="8" opacity="0.9"/>
+                        <rect x="65" y="45" width="70" height="50" fill="#3B82F6" rx="4"/>
+                        <circle cx="100" cy="105" r="4" fill="white"/>
+                        
+                        <!-- Message bubbles -->
+                        <ellipse cx="40" cy="30" rx="20" ry="12" fill="#10B981" opacity="0.8"/>
+                        <ellipse cx="160" cy="35" rx="18" ry="10" fill="#F59E0B" opacity="0.8"/>
+                        <ellipse cx="30" cy="120" rx="15" ry="8" fill="#EF4444" opacity="0.8"/>
+                        <ellipse cx="170" cy="125" rx="16" ry="9" fill="#8B5CF6" opacity="0.8"/>
+                        
+                        <!-- Connection lines -->
+                        <path d="M60 45 L40 35" stroke="white" stroke-width="1" opacity="0.6"/>
+                        <path d="M140 50 L160 40" stroke="white" stroke-width="1" opacity="0.6"/>
+                        <path d="M70 100 L35 115" stroke="white" stroke-width="1" opacity="0.6"/>
+                        <path d="M130 105 L165 120" stroke="white" stroke-width="1" opacity="0.6"/>
+                    </svg>
+                </div>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
@@ -631,11 +800,11 @@
                     <div class="space-y-4">
                         <div class="flex items-center">
                             <span class="text-2xl mr-4">📧</span>
-                            <span>contact@jmproedit.com</span>
+                            <span>Email: jecyworkpro@gmail.com</span>
                         </div>
                         <div class="flex items-center">
                             <span class="text-2xl mr-4">📱</span>
-                            <span>+1 (555) 123-4567</span>
+                            <span>+1 (210) 367-5351</span>
                         </div>
                         <div class="flex items-center">
                             <span class="text-2xl mr-4">🌐</span>
@@ -671,7 +840,13 @@
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center">
-                <div class="text-3xl font-bold text-emerald-600 mb-4">JM ProEdit Services</div>
+                <div class="flex items-center justify-center mb-4">
+                    <!-- IMPUTLOGOHERE -->
+                    <div class="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mr-4">
+                        <span class="text-emerald-600 font-bold">LOGO</span>
+                    </div>
+                    <div class="text-3xl font-bold text-emerald-600">JM ProEdit Services</div>
+                </div>
                 <p class="text-gray-400 mb-6">Professional Virtual Assistant & Content Solutions</p>
                 <div class="flex justify-center space-x-6 mb-8">
                     <a href="#home" class="text-gray-400 hover:text-emerald-400 transition-colors">Home</a>
@@ -686,5 +861,5 @@
             </div>
         </div>
     </footer>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96cd732363006998',t:'MTc1NDgwNzQ4MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96cd788f15146998',t:'MTc1NDgwNzcwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
